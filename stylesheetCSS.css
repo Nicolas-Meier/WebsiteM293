@@ -1,8 +1,87 @@
-.balke {
-    width: 1440px;
-    height: 97px;
-    top: -3px;
-    position: absolute;
-    left: 0px;
+/* 
+.navbar {
     background-color: rgba(48, 83, 39, 0.95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 97px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nameNavi {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 33px;
+    color: #4A2753;
+    margin-right: 30px;
+}
+
+#ueberMich {
+    margin-left: 30px;
+}
+
+.portrait {
+    margin-top: 100px;
+} */
+.navbar {
+    background-color: rgba(48, 83, 39, 0.95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 97px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nameNavi {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 33px;
+    color: #4A2753;
+    margin-right: 30px;
+}
+
+#ueberMich {
+    margin-left: 30px;
+}
+
+.Persona1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portrait {
+    margin-right: 30px;
+    margin-top: 70px;
+}
+
+.persona-info {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 115px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+p {
+   margin-top: 5px;
+   margin-bottom: 5px;
 }
