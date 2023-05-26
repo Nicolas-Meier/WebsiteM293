@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicolas Meier">
+    <meta name="date" content="2023-04-01">
+    <link rel="stylesheet" href="stylesheetCSS.css">
+    <title>Webseite</title>
+</head>
+
+<div class="header">
+    <div class="navbar">
+        <div class="nameNavi" id="ueberMich"><a href="Index.html">Über Mich</a></div>
+        <div class="nameNavi" id="faehigkeiten"><a href="Fähigkeiten.html">Fähigkeiten</a></div>
+        <div class="nameNavi" id="portfolio"><a href="Portfolio.html">Portfolio</a></div>
+        <div class="nameNavi" id="kontakt">Kontakt</div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="header-section">
+        <div class="image-section">
+            <img src="Platzhalter.jpeg" alt="Nicolas Meier">
+        </div>
+        <div class="text-section">
+            <p>Nicolas Meier<br>E-Mail: meiernico105@gmail.com<br>Telefon: 079 205 42 03<br>Adresse: Grubensteig 7</p>
+        </div>
+    </div>
+    <h2>Kontaktformular</h2>
+    <form id="contactForm">
+        <div class="form-group">
+            <label for="anrede">Anrede:</label>
+            <select id="anrede" name="anrede">
+                <option value="Herr">Herr</option>
+                <option value="Frau">Frau</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="vorname">Vorname:</label>
+            <input type="text" id="vorname" name="vorname" required>
+        </div>
+        <div class="form-group">
+            <label for="nachname">Nachname:</label>
+            <input type="text" id="nachname" name="nachname" required>
+        </div>
+        <div class="form-group">
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="telefon">Telefon/Mobil:</label>
+            <input type="tel" id="telefon" name="telefon">
+        </div>
+        <div class="form-group">
+            <label for="betreff">Betreff:</label>
+            <input type="text" id="betreff" name="betreff" required>
+        </div>
+        <div class="form-group">
+            <label for="nachricht">Nachricht:</label>
+            <textarea id="nachricht" name="nachricht" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="submit-button">Senden</button>
+    </form>
+</div>
+</html>

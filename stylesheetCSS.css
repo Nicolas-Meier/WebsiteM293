@@ -1,34 +1,44 @@
-/* 
-.navbar {
-    background-color: rgba(48, 83, 39, 0.95);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 97px;
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 97px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-.nameNavi {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 33px;
-    color: #4A2753;
-    margin-right: 30px;
+.submit-button,
+.reset-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-#ueberMich {
-    margin-left: 30px;
+.submit-button:hover,
+.reset-button:hover {
+    background-color: #45a049;
 }
 
-.portrait {
-    margin-top: 100px;
-} */
 .navbar {
     background-color: rgba(48, 83, 39, 0.95);
     display: flex;
@@ -82,6 +92,37 @@ ul li {
 }
 
 p {
-   margin-top: 5px;
-   margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-section img {
+    width: 100px; /* Passe die Breite entsprechend an */
+    height: auto;
+    margin-right: 10px;
+}
+
+.text-section p {
+    margin: 0;
+    font-weight: bold;
 }
